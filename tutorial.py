@@ -48,7 +48,7 @@ def typing_accuracy(current_text, target_text):
     return matching_percentage
 
 def wpm_test(stdscr):
-    target_text = "this is just a test"
+    target_text = load_text()
     current_text = []
     wpm =0
     accuracy= 0
